@@ -1,6 +1,74 @@
+
+:root {
+    --light:#F5F5F5;
+    --white: #FFF;
+    --font1:'Open Sans', sans-serif;
+    --font2: 'Montserrat', sans-serif;
+    --red :
+}
+b {
+    color:#F44336;
+    font-weight: bold;
+}
+
 body {
-    background-color: rebeccapurple;
- 
- margin:0;
     padding:0;
+    margin:0;
+
+}
+
+
+.navbar {
+    background-color: white;
+    color: black;
+    font-family: var(--font2);
+    padding:20px 0;
+ 
+
+}
+
+
+
+.navbar-brand {
+    margin: 0;
+    font-size: 25px;
+    text-align:center;
+    vertical-align: center;
+    padding: 0;
+    color:#F44336;
+    font-weight: bold;
+}
+
+.nav-item {
+    padding:20px;
+}
+.nav-link {
+    color:black;
+    font-family: var(--font2);
+    font-weight: normal;
+}
+
+
+.form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align:center;
+    flex-direction: row;
+    font-family: var(--font2);
+
+}
+
+.form i {
+    font-size: 22px;
+    color:black;
+    font-weight: bold;
+    margin: 0 10px;
+}
+
+.form h2 {
+    color: black;
+    font-size: 18px;
+    font-weight: light;
+    margin: 0 10px;
 }

@@ -1,0 +1,20 @@
+{
+    // Font Awesome version to use.
+    "fontAwesomeAutocomplete.version": "5",
+    // List of glob patterns that determine where Font Awesome 5 Autocomplete will provide suggestions.
+    "fontAwesomeAutocomplete.patterns": [
+        "**/*.html"
+    ],
+    // A word that triggers the auto completion of Font Awesome icons. Last character of the trigger word is also the trigger character for auto completion menu.
+    "fontAwesomeAutocomplete.triggerWord": "fa-",
+    // A list of glob patterns for which the extension should NOT auto-remove the trigger word when a font class name is inserted from the auto completion list.
+    "fontAwesomeAutocomplete.disableTriggerWordAutoClearPatterns": ["**/*.html"],
+    // Background color of a Font Awesome icon preview. Supports any valid CSS color.
+    "fontAwesomeAutocomplete.preview.backgroundColor": "#ffffff",
+    // Foreground color of a Font Awesome icon preview. Supports any valid CSS color.
+    "fontAwesomeAutocomplete.preview.foregroundColor": "#000000",
+    // Allows overriding the inserted text per file type when an autocompletion item is selected. Available template placeholders are {style}, {name}, and {prefix}.
+    "fontAwesomeAutocomplete.insertionTemplate": {
+        "**/*.html": "{style} {prefix}{name}"
+    }
+}
