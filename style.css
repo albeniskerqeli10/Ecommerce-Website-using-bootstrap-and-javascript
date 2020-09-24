@@ -17,7 +17,7 @@ body {
 
 }
 
-
+/*  Designing Navbar*/
 .navbar {
     background-color: white;
     color: black;
@@ -40,7 +40,7 @@ body {
 }
 
 .nav-item {
-    padding:20px;
+    padding:5px 20px;
 }
 .nav-link {
     color:black;
@@ -73,11 +73,172 @@ body {
     margin: 0 10px;
 }
 
+/*  Designing Hero Section*/
 
 .hero {
     width:100%;
-    min-height: 500px;
+    min-height:699px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: left;
+    background-image:         linear-gradient(
+        rgba(0, 0, 0, 0.5), 
+        rgba(0, 0, 0, 0.5)
+      ),url("images/heroimg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.herocontent {
+    width: 100%;
+    display: flex;
+    min-height: 300px;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    background-color: transparent
+}
+
+.herocontent .display-4 {
+    color:white;
+    font-family: var(--font1);
+    padding: 20px 0;
+
+    font-weight: bold;
+    line-height: 90px;
+}
+
+.herocontent .lead {
+    color: whitesmoke;
+    font-weight: normal!important;
+    font-family: var(--font2);
+font-size: 15px;
+padding: 20px 0;
+
+line-height: 40px;
+}
+
+.herocontent .hero-row {
+    display: flex;
+    align-items: center;
+    padding: 20px 0;
+    justify-content: center;
+}
+
+.herocontent .hero-row .herobutton {
+    background-color: var(--red);
+    color:white;
+    border: none;
+    font-family: var(--font2);
+    margin-right: 20px;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.herocontent .hero-row .herobutton:nth-child(2) {
+    border: 2px solid var(--red);
+    background-color: transparent;
+}
+
+/*  Designing Product List Section*/
+
+.product-list {
+    width: 100%;
+    min-height: 600px;
+    background-color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
 }
+
+.product-list .container .text-left {
+    padding: 40px 0;
+    color: black;
+    margin: 10px;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: var(--font1);
+}
+
+.product {
+    width: 100%;
+    min-height: 450px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin: 0 10px;
+
+    flex-direction: column;
+    background-color: transparent;
+}
+
+.product-image {
+    width: 100%;
+    min-height: 250px;
+    background-image: url(images/mac1.png);
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-color: whitesmoke;
+    object-fit: cover;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+
+
+    background-position: center;
+}
+
+ .image2 {
+    background-image: url(images/msi.png)!important;
+    background-size: 80%;
+    background-position: center;
+
+}
+
+.image3 {
+    background-image: url(images/msi2.png)!important;
+    background-size: 80%;
+    background-position: center;
+}
+
+.image4 {
+    background-image: url(images/asus.png)!important;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.product .display-4 {
+    font-size: 20px;
+    color:black;
+    padding: 10px 0;
+    font-family: var(--font1);
+    margin: 10px;
+    font-weight: normal;
+}
+
+.productrow .lead {
+    color:black;
+    margin: 10px;
+    padding: 10px 0;
+    font-family: var(--font2);
+}
+
+.productrow {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.productrow .buy {
+    padding: 10px  10px;
+    font-family: var(--font2);
+    background-color: var(--red);
+    font-size: 13px;
+    color: white;
+    border: none;
+}
+
