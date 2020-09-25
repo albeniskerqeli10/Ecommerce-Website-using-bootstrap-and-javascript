@@ -144,17 +144,33 @@ line-height: 40px;
     font-weight: normal;
 }
 
-.herocontent .hero-row .herobutton:nth-child(2) {
-    border: 2px solid var(--red);
-    background-color: transparent;
+.hrobtn {
+    border: 2px solid var(--red)!important;
+    background-color: transparent!important;
+}
+
+.brobtn:hover {
+    border: 2px solid var(--red)!important;
+    background-color: transparent!important;
+}
+
+.herobutton:hover {
+  background-color: red;
+  transition: 0.5s linear;
+}
+
+
+.hrobtn:hover {
+    background-color: var(--red)!important;
+    transition: 0.5s linear;
 }
 /*  Designing Offer Section*/
 .offer {
     width: 100%;
     min-height: 600px;
-    background: linear-gradient(to right top, #f44336, #f1392b, #ee2f20, #eb2212, #e71000);;
-    display: flex;
-    align-items: center;
+    background-image: linear-gradient(to right top, #121212, #121212, #121212, #121212, #121212);
+        display: flex;
+        align-items: center;
     justify-content: center;
     color: white;
     flex-direction: column;
@@ -187,10 +203,11 @@ line-height: 40px;
     font-family: var(--font1);
     font-size: 50px;
     padding: 30px 0;
+    color: white;
 }
 
 .offer b {
-    color:#121212;
+    color:var(--red);
 }
 .offer .lead {
     font-family: var(--font2);
@@ -215,7 +232,8 @@ line-height: 40px;
 .offer .buynow {
     padding: 10px  10px;
     font-family: var(--font2);
-    background: #121212;
+    background-image: linear-gradient(to right top, #f44336, #f1392b, #ee2f20, #eb2212, #e71000);
+
     font-size: 13px;
     color: white;
     display: flex;
@@ -229,7 +247,7 @@ line-height: 40px;
 }
 
 .offer .buynow i {
-    color:var(--red);
+    color:var(--white);
 }
 
 /*  Designing Product List Section*/
@@ -400,7 +418,7 @@ line-height: 40px;
 .productrow .buy {
     padding: 10px  10px;
     font-family: var(--font2);
-    background: linear-gradient(to right top, #f44336, #f1392b, #ee2f20, #eb2212, #e71000);
+    background-image: linear-gradient(to right top, #f44336, #f1392b, #ee2f20, #eb2212, #e71000);
     font-size: 13px;
     color: white;
     display: flex;
@@ -411,6 +429,18 @@ line-height: 40px;
 
     border: none;
 }
+
+ .productrow .buy:hover {
+     background-color: #121212;
+    color:var(--white);
+    background-image: none;
+
+}
+
+.productrow .buy:hover i {
+    color:var(--white);
+}
+
 .profile {
     width:100%;
     min-height: 150px;
