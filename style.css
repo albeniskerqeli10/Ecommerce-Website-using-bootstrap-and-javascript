@@ -328,8 +328,23 @@ line-height: 40px;
 
     border: none;
 }
-
-
+.profile {
+    width:100%;
+    min-height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction:row;
+}
+/
+.list {
+    width:100%;
+    min-height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction:row;
+}
 /*  Designing footer Section*/
 
 .footermain {
