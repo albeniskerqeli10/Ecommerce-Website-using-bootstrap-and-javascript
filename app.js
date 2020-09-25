@@ -23,7 +23,5 @@ profile.style.display = "flex";
 profile.style.flexDirection = "row";
 profile.append(image);
 
-
-
-  })
+})
 })

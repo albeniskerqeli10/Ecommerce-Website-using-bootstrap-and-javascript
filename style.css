@@ -32,6 +32,7 @@ body {
 .navbar-brand {
     margin: 0;
     font-size: 25px;
+
     text-align:center;
     vertical-align: center;
     padding: 0;
@@ -104,10 +105,10 @@ body {
 .herocontent .display-4 {
     color:white;
     font-family: var(--font1);
-    padding: 20px 0;
+    padding:10px 0;
 
     font-weight: bold;
-    line-height: 90px;
+    line-height: 80px;
 }
 
 .herocontent .lead {
@@ -115,7 +116,7 @@ body {
     font-weight: normal!important;
     font-family: var(--font2);
 font-size: 15px;
-padding: 20px 0;
+padding: 10px 0;
 
 line-height: 40px;
 }
@@ -123,7 +124,7 @@ line-height: 40px;
 .herocontent .hero-row {
     display: flex;
     align-items: center;
-    padding: 20px 0;
+    padding: 10px 0;
     justify-content: center;
 }
 
@@ -132,6 +133,12 @@ line-height: 40px;
     color:white;
     border: none;
     font-family: var(--font2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+
     margin-right: 20px;
     font-size: 18px;
     font-weight: normal;
@@ -154,10 +161,17 @@ line-height: 40px;
     flex-direction: column;
 }
 
+
+
 .product-list .container .text-left {
-    padding: 40px 0;
+    padding: 10px 0;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    border-bottom:3px solid #F44336;
     color: black;
-    margin: 10px;
+    max-width: 200px;
+    margin:  30px 10px;
     font-size: 30px;
     font-weight: bold;
     font-family: var(--font1);
@@ -175,12 +189,14 @@ line-height: 40px;
     background-color: transparent;
 }
 
+
 .product-image {
     width: 100%;
     min-height: 250px;
     background-image: url(images/mac1.png);
     background-size: 80%;
     background-repeat: no-repeat;
+    border-radius: 5px;
     background-color: whitesmoke;
     object-fit: cover;
     box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
@@ -209,6 +225,69 @@ line-height: 40px;
 }
 
 
+.image5 {
+    background-image: url(images/c1.png)!important;
+    background-size: 60%;
+    background-position: center;
+}
+
+
+.image6 {
+    background-image: url(images/c2.png)!important;
+    background-size: 80%;
+    background-position: center;
+}
+
+.image7 {
+    background-image: url(images/c3.png)!important;
+    background-size: 60%;
+    background-position: center;
+}
+
+.image8 {
+    background-image: url(images/c4.png)!important;
+    background-size: 60%;
+    background-position: center;
+}
+.image8 {
+    background-image: url(images/c4.png)!important;
+    background-size: 60%;
+    background-position: center;
+}
+
+.image9 {
+    background-image: url(images/s1.png)!important;
+    background-size: 60%;
+    background-position: center;
+}
+
+.container {
+}
+.image10 {
+    background-image: url(images/s2.png)!important;
+    background-size:50%;
+    background-position: center;
+}
+
+.image11 {
+    background-image: url(images/s3.png)!important;
+    background-size:40%;
+    background-position: center;
+}
+
+.image12 {
+    background-image: url(images/s4.png)!important;
+    background-size:40%;
+    background-position: center;
+}
+
+
+
+
+
+
+
+
 .product .display-4 {
     font-size: 20px;
     color:black;
@@ -222,6 +301,7 @@ line-height: 40px;
     color:black;
     margin: 10px;
     padding: 10px 0;
+    
     font-family: var(--font2);
 }
 
@@ -231,6 +311,7 @@ line-height: 40px;
     align-items: center;
     flex-direction: row;
     justify-content: space-between;
+    
 }
 
 .productrow .buy {
@@ -239,6 +320,51 @@ line-height: 40px;
     background-color: var(--red);
     font-size: 13px;
     color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+
     border: none;
 }
 
+
+/*  Designing footer Section*/
+
+.footermain {
+    width:100%;
+    min-height:100px;
+    background-color: #121212;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+#footer {
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    
+}
+
+#footer .nav-link {
+    color:white;
+}
+
+#footer .nav-item {
+}
+#footer .navbar-brand {
+}
+
+#footer i {
+    color:#F44336;
+    font-size: 17px;
+}
+#footer h1 {
+    font-size: 17px;
+    color:white;
+    
+    
+}
