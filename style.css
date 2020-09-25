@@ -148,6 +148,89 @@ line-height: 40px;
     border: 2px solid var(--red);
     background-color: transparent;
 }
+/*  Designing Offer Section*/
+.offer {
+    width: 100%;
+    min-height: 600px;
+    background: linear-gradient(to right top, #f44336, #f1392b, #ee2f20, #eb2212, #e71000);;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    flex-direction: column;
+    text-align: left;
+}
+
+.offer .left  {
+    width: 100%;
+    min-height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(https://asset.msi.com/resize/image/global/product/product_1_20180919184314_5ba22842648ea.png62405b38c58fe0f07fcef2367d8a9ba1/1024.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.offer .right {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    min-height: 300px;
+    text-align: left;
+}
+
+.offer .display-4 {
+    text-align: left;
+    font-family: var(--font1);
+    font-size: 50px;
+    padding: 30px 0;
+}
+
+.offer b {
+    color:#121212;
+}
+.offer .lead {
+    font-family: var(--font2);
+    font-size: 14px;
+    font-weight: normal;
+    color: whitesmoke;
+    padding: 15px 0;
+}
+
+.offer .row1 {
+    width:100%;
+    display:flex;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.offer h3 {
+    margin-right: 30px;
+}
+
+.offer .buynow {
+    padding: 10px  10px;
+    font-family: var(--font2);
+    background: #121212;
+    font-size: 13px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+
+    border: none;
+
+}
+
+.offer .buynow i {
+    color:var(--red);
+}
 
 /*  Designing Product List Section*/
 
