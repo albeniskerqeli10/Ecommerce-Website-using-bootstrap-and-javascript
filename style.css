@@ -17,6 +17,9 @@ body {
 
 }
 
+html {
+    scroll-behavior: smooth;
+}
 /*  Designing Navbar*/
 .navbar {
     background-color: white;
